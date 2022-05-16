@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas | Curso Practico de JavaScript</title>
+</head>
+<link rel="stylesheet" href="./styles.css">
+<body>
+    <header>
+        <h1>Figuras Geometricas</h1>
+        <p>Este es el primer taller del curso practicp de JavaScript</p>
+    </header>
+
+
+    <section class="List-card">
+        <article class="Card" style="background-color: rgb(28, 149, 141);">
+            <div class="Card-header">
+                <svg width="40" height="40" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 400 400" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                <path fill="white" id="XMLID_523_" d="M315,0H15C6.716,0,0,6.716,0,15v300c0,8.284,6.716,15,15,15h300c8.284,0,15-6.716,15-15V15
+                    C330,6.716,323.285,0,315,0z M300,300H30V30h270V300z"/>
+                </svg>
+                <h2>Cuadrado</h2>
+            </div>
+            <div class="Card-body">
+                <form action="" class="Card-form">
+                    <label for="InputCuadrado">Escribir cuanto mide cada lado de tu cuadrado: </label>
+                    <div class="form-input">
+                        <input id="InputCuadrado" type="number">
+                        <select name="select">
+                            <option value="value1" selected>cm</option>
+                            <option value="value2">m</option>
+                            <option value="value3">Km</option>
+                        </select>
+                    </div>
+                    <div class="form-btn">
+                        <button type="button" id="btn-perimetro-cuadrado">Calcular el perimetro</button>
+                        <button type="button" id="btn-area-cuadrado">Calcular el area </button>
+                    </div>
+                </form>
+                <span type="text" name="" id="result-cuadrado">
+                </span>
+            </span>
+        </article>
+        
+        <article class="Card" style="background-color: coral;">
+            <div class="Card-header">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   width="40" height="40" viewBox="0 0 580 580" style="enable-background:new 0 0 512.055 512.055;" xml:space="preserve">
+                <g>
+                    <g>
+                        <path fill="white" d="M509.775,481.154L275.109,11.82c-7.862-15.724-30.3-15.724-38.162,0L2.28,481.154
+                            c-7.092,14.185,3.222,30.874,19.081,30.874h469.333C506.553,512.028,516.868,495.338,509.775,481.154z M55.879,469.361
+                            L256.028,69.064l200.149,400.297H55.879z"/>
+                    </g>
+                </g>
+                </svg>
+                <h2>Triangulo</h2>
+            </div>
+            <div class="Card-body">
+                <form action="" class="Card-form">
+                    <label for="InputTriangulo">Escribir cuanto mide cada lado de tu cuadrado: </label>
+                    <div class="form-input">
+                        <div>
+                            <input id="Input-ladoa-trinagulo" placeholder="Lado A" type="number">
+                            <input id="Input-ladob-trinagulo" placeholder="Lado B" type="number">
+                            <input id="Input-base-trinagulo" placeholder="Base" type="number">
+                            <input id="Input-altura-trinagulo" placeholder="Altura" type="number">
+                            <select name="select">
+                                <option value="value1" selected>cm</option>
+                                <option value="value2">m</option>
+                                <option value="value2">Km</option>
+                            </select>   
+                        </div>
+                    </div>
+                    
+                    <div class="form-btn">
+                        <button type="button" id="btn-perimetro-triangulo">Calcular el perimetro</button>
+                        <button type="button" id="btn-area-triangulo">Calcular el area </button>
+                    </div>
+                    
+                </form>
+                <span type="text" name="" id="result-triangulo">
+                </span>
+            </div>
+            
+        </article>
+
+        <article class="Card" style="background-color: rgb(61, 118, 179);">
+            <div class="Card-header">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="40" height="40" viewBox="0 0 40 40" style="enable-background:new 0 0 35 35;"
+                    xml:space="preserve">
+                <g>
+                    <path fill="white" d="M15.712,3.132c6.937,0,12.581,5.644,12.581,12.58c0,6.938-5.645,12.581-12.581,12.581c-6.937,0-12.58-5.645-12.58-12.581
+                        C3.132,8.775,8.775,3.132,15.712,3.132 M15.712,0C7.035,0,0,7.034,0,15.712c0,8.679,7.035,15.713,15.712,15.713
+                        c8.677,0,15.712-7.034,15.712-15.713C31.425,7.034,24.389,0,15.712,0L15.712,0z"/>
+                </g>
+                <h2>Circulo</h2>
+            </div>
+            <div class="Card-body">
+                <form action="" class="Card-form">
+                    <label for="InputCuadrado">Escribir cuanto mide cada lado de tu cuadrado: </label>
+                    <div class="form-input">
+                        <input id="InputCuadrado" type="number">
+                        <select name="select">
+                            <option value="value1" selected>cm</option>
+                            <option value="value2">m</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-btn">
+                        <button type="button">Calcular el perimetro</button>
+                        <button type="button">Calcular el area </button>
+                    </div>
+                </form>
+                <input type="text" name="" id="">
+            </div>
+            
+        </article>
+    </section>
+
+
+    <script src="./figuras.js"></script>
+</body>
+</html>
